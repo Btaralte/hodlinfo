@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>HODLINFO</title>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="head1">
+            <h1>HODLINFO</h1>
+            <p>Powered By <span style="color: #17a2b8;">Finstreet</span></p>
+        </div>
+        <div class="head2">
+            <select>
+                <option>INR</option>
+            </select>
+            <select>
+                <option>BTC</option>
+            </select>
+            <button>BUY BTC</button>
+        </div>
+        <div class="head3">
+            <p>10</p>
+            <button> Connect Telegram</button>
+            <div></div>
+        </div>
+
+    </div>
+    <div class="table">
+        <div class="row1">
+            <p>#</p>
+            <p>name</p>
+            <p>Last</p>
+            <p>Buy/Sell Price</p>
+            <p>volume</p>
+            <p>base_unit</p>
+        </div>
+        <% datas.forEach((data,index) => { %>
+        <div class="row2">
+            <p><%= index+1 %></p>
+            <p><%= data.name %></p>
+            <p>₹ <%= data.last %></p>
+            <p>₹<%= data.buy %> / ₹<%= data.sell %></p>
+            <p><%= data.volume %></p>
+            <p><%= data.base_unit %></p>
+            
+        </div>
+        <% }); %>
+            
+    </div>
+</body>
+</html>

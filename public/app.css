@@ -1,0 +1,87 @@
+body{
+    background-color: #191d28;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+.head1{
+    padding: 0;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.head1 h1{
+    color: #17a2b8;
+    font-size: 3.6rem;
+    margin: 0;
+}
+.head1 p{
+    font-size: 1.1rem;
+    margin: 0;
+}
+.head2{
+    margin-top: 2rem;
+}
+.head2 select,button{
+    padding: 0.3rem 0.6rem;
+    background: #272e40;
+    color: white;
+    border: solid;
+    border-color:#191d28;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.8rem;
+}
+.head3{
+    display: flex;
+    flex-direction: row;
+}
+.head3 p{
+    background:#191d28;
+    border: 0.2rem solid;
+    padding:0;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #17a2b8;
+    border-radius: 100%;
+}
+.head3 button{
+    background: #17a2b8;
+    padding:auto;
+    height: 2.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.2rem;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #6c757d;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background: #272e40;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
